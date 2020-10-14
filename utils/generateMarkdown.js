@@ -1,3 +1,27 @@
+//make license link
+
+function genLicense (license){
+  if (license !== "none"){
+    return `![GitHub license](https://img.shields.io/badge/license-${license}-blue.svg)`
+  } return ""
+}
+
+function tocLicense (license){
+  if (license !== "none"){
+    return (`[license](#license)`)
+  } return ""
+}
+
+function licenseSection (license){
+  if (license !== "none"){
+    return (`## License
+    
+      This Project is licensed under the ${license}`)
+  } return ""
+}
+
+
+
 // function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
@@ -5,6 +29,7 @@ function generateMarkdown(data) {
   ## Description
 
   ${data.description}
+  ${genLicense(data.license)}
 
   ## Table of Contents
 
@@ -15,6 +40,8 @@ function generateMarkdown(data) {
   *[contributing](#contributing)
 
   *[questions](#questions)
+
+  *${tocLicense(data.license)}
 
   *[test](#test)
 
@@ -28,6 +55,8 @@ function generateMarkdown(data) {
 
   ## Contributing 
   ${data.contributors}
+
+  ${licenseSection(data.license)}
 
   ## Tests 
 

@@ -50,12 +50,13 @@ const questions = [
 function writeToFile(fileName, data) {
 
     return fs.writeFileSync(path.join(process.cwd(), fileName), data)
+     
 }
 
 // function to initialize program
 function init() {
     inquirer.prompt(questions).then(response => {
-        writeToFile("sample.md", markdown(response) )
+        writeToFile("sampleREADME.md", markdown(response) )
     })
 
 }
