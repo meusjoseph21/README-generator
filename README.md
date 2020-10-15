@@ -51,4 +51,6 @@
 
   ## Usage Video 
 
-  <video src = "./assets/video/README.mp4">
+  <img src  = "./assets/images/image.jpg">
+
+   <img src  = "./assets/images/image2.jpg">
