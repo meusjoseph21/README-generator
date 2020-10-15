@@ -41,7 +41,8 @@ const questions = [
     {
         type: "input",
         message: "Enter command to run tests: ",
-        name: "tests"
+        name: "tests",
+        default: "npm",
     }
 
 ];
@@ -56,7 +57,7 @@ function writeToFile(fileName, data) {
 // function to initialize program
 function init() {
     inquirer.prompt(questions).then(response => {
-        writeToFile("sampleREADME.md", markdown(response) )
+        writeToFile("sampleREADME2.md", markdown(response) )
     })
 
 }
