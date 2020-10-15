@@ -17,7 +17,7 @@
 
   *[questions](#questions)
 
-  *
+  *[license](#license)
 
   *[test](#test)
 
