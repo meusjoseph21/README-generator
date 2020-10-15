@@ -53,4 +53,4 @@
 
   <img src  = "./assets/images/image.jpg">
 
-   <img src  = "./assets/images/image2.jpg">
+   <img src  = "./assets/images/image2.png">
