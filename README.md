@@ -51,7 +51,7 @@
 
   ## Usage Video 
 
-   <iframe src="https://drive.google.com/file/d/16mg1IClgn2kBL0FhGqYPt-1h5J3PMTM5/preview" width="640" height="480"></iframe>
+   https://drive.google.com/file/d/16mg1IClgn2kBL0FhGqYPt-1h5J3PMTM5/view
 
   <img src  = "./assets/images/image.jpg">
 
